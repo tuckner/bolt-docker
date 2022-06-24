@@ -21,5 +21,5 @@ docker build . -t bolt-docker
 ## Run
 
 ```
-docker run --env-file .env bolt-docker
+docker run -d --env-file .env bolt-docker
 ```
