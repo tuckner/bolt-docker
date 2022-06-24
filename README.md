@@ -1,6 +1,6 @@
 # Bolt Docker
 
-A Docker container for receiving Slack Bolt Socket mode message events and sending to a webhook.
+A Docker container for receiving Slack Bolt [Socket](https://api.slack.com/apis/connections/socket) mode message events and sending to a webhook.
 
 ## Setup Environment
 
