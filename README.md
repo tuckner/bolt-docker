@@ -21,5 +21,5 @@ docker build . -t bolt-docker
 ## Run
 
 ```
-docker run -d --env-file .env --name slack-messages bolt-docker
+docker run -it -d --env-file .env --name slack-messages bolt-docker
 ```
