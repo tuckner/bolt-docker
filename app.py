@@ -14,7 +14,7 @@ def send_event(event):
 
 @app.command(re.compile(".*"))
 def send_command(ack, respond, command):
-  print('[LOG] Message received: {}'.format(command))
+  print('[LOG] Command received: {}'.format(command))
   ack()
   respond(f"Got it!")
   requests.post(os.environ["WEBHOOK_ADDRESS"], json=command)
